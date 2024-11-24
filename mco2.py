@@ -31,7 +31,7 @@ golds = [['.' for i in range(5)] for i in range(5)]
 # harcoded positions of pits gold home
 pits = [(2, 1), (1, 2), (4, 3)]
 home = (4, 0)
-gold = [(0, 1), (1, 0), (0, 4), (3, 4)]
+gold = [(0, 1), (1, 0), (0, 4), (4, 4)]
 goldCount = 0
 
 curX, curY = home[0], home[1]
