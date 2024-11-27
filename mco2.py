@@ -71,7 +71,7 @@ putBreeze(grid)
 putGold(grid)
 prolog = Prolog()
 prolog.consult("adventure.pl")
-prolog.assertz("breeze(-100, -100)")
+prolog.assertz("breeze(_, _) :- fail")
 prolog.assertz("pit(_, _) :- fail")
 
 prolog.assertz(f"home({home[0]}, {home[1]})")
